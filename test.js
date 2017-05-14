@@ -4,5 +4,6 @@ xhttp.onreadystatechange = function() {
       console.log(xhttp.response);
     }
 };
-xhttp.open("GET", "http://clickerheroes-savedgames3-747864888.us-east-1.elb.amazonaws.com/clans/getServerVersion.php", true);
+xhttp.open("GET", "https://clickerheroes-savedgames3-747864888.us-east-1.elb.amazonaws.com/clans/getServerVersion.php", true);
 xhttp.send();
+console.log("kappa");
